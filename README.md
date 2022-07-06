@@ -15,7 +15,7 @@ sudo apt-get install cron
 sudo crontab -e
 ```
 3. Bearbeiten des Crontabs
-Füge diesen text ganz unten ein
+Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
 ```
 */20 * * * * /[Dein Pfad zum Skript]/dyndns.sh >/dev/null 2>&1
 ```
