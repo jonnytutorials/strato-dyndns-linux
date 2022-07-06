@@ -24,5 +24,5 @@ Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
 ``` shell
 sudo systemctl restart cron
 ```
-# Fertig! Wenn du Fragen hast kannst du diese auf meinem [Discord](https://discord.gg/s9tD46Fwh8) klären. Fehler kannst du [hier](https://github.com/jonnytutorials/Strato-dyndns-linux/issues/new) melden
+### Fertig! Wenn du Fragen hast kannst du diese auf meinem [Discord](https://discord.gg/s9tD46Fwh8) klären. Fehler kannst du [hier](https://github.com/jonnytutorials/Strato-dyndns-linux/issues/new) melden
 [![Discord](https://discordapp.com/api/guilds/743062575775875143/embed.png?style=shield)](https://discord.gg/s9tD46Fwh8)
