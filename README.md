@@ -8,11 +8,22 @@ Das ist ein kleines Skript um die Ip-Adresse für eine Strato Domain zu aktualis
 Cron ist ein Linux Dienst mit dem man Prozesse zu einer angegebenen Zeit auführen kann. Mehr [hier](https://de.wikipedia.org/wiki/Cron)
 1. Installieren von Crontab
 ``` shell
-apt-get install cron 
+sudo apt-get install cron 
 ```
-2. Zeitliche aktivierung des Skriptes
+2. Öffnen des Crontabs
 ``` shell
-
+sudo crontab -e
+```
+3. Bearbeiten des Crontabs
+Füge diesen text ganz unten ein
 ```
 
+```
+[Hier kommt noch ein Bild] <br>
+4. Crontab Neustarten
+``` shell
+sudo systemctl restart cron
+```
+
+[Fehler Melden](https://github.com/jonnytutorials/Strato-dyndns-linux/issues) - 
 [![Discord](https://discordapp.com/api/guilds/743062575775875143/embed.png?style=shield)](https://discord.gg/s9tD46Fwh8)
