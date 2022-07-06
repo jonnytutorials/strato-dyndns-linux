@@ -2,8 +2,8 @@
 Das ist ein kleines Skript um die IP-Adresse für eine Strato Domain zu aktualisieren.
 <br>
 ## Setup
-1. Lade die `dyndns.sh` herunter und verschiebe sie in einen von dir wählbaren Ordner.
-2. Offne die Datei `dyndns.sh` und setze bei `passwort`, `benutzer` und `domain` deine Werte, die du in deinem Strato Konto findest. Nicht vergessen die Datei zu speichern :D.
+1. Lade die `strato-dyndns.sh` herunter und verschiebe sie in einen von dir wählbaren Ordner.
+2. Offne die Datei `strato-dyndns.sh` und setze bei `passwort`, `benutzer` und `domain` deine Werte, die du in deinem Strato Konto findest. Nicht vergessen die Datei zu speichern :D.
 ## Setup Cron
 Cron ist ein Linux Dienst mit dem man Prozesse zu einer angegebenen Zeit auführen kann. Mehr [hier](https://de.wikipedia.org/wiki/Cron)
 1. Installieren von Crontab
@@ -17,7 +17,7 @@ sudo crontab -e
 3. Bearbeiten des Crontabs <br>
 Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
 ```
-*/20 * * * * /[Dein Pfad zum Skript]/dyndns.sh >/dev/null 2>&1
+*/20 * * * * /[Dein Pfad zum Skript]/strato-dyndns.sh >/dev/null 2>&1
 ```
 [Hier kommt noch ein Bild] <br>
 4. Crontab Neustarten
