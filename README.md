@@ -10,17 +10,27 @@ Cron ist ein Linux Dienst mit dem man Prozesse zu einer angegebenen Zeit auführ
 ``` shell
 sudo apt-get install cron 
 ```
-2. Öffnen des Crontabs
+
+2. Zugriffsrechte Anpassen
+``` shell
+sudo chmod +x [Dein Pfad zum Skript]/strato-dyndns.sh
+```
+
+3. Öffnen des Crontabs
 ``` shell
 sudo crontab -e
 ```
-3. Bearbeiten des Crontabs <br>
+
+4. Bearbeiten des Crontabs <br>
 Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
 ```
 */20 * * * * /[Dein Pfad zum Skript]/strato-dyndns.sh >/dev/null 2>&1
 ```
-[Hier kommt noch ein Bild] <br>
-4. Crontab Neustarten
+<p align="center">
+<img src="https://i.ibb.co/jHqvsYb/cron-edit.png" alt="cron-edit">
+</p>
+
+5. Crontab Neustarten
 ``` shell
 sudo systemctl restart cron
 ```
