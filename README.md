@@ -30,7 +30,7 @@ Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
 <img src="https://i.ibb.co/jHqvsYb/cron-edit.png" alt="cron-edit">
 </p>
 
-5. Crontab Neustarten
+5. Cron Neustarten
 ``` shell
 sudo systemctl restart cron
 ```
