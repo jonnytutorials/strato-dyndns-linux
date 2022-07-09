@@ -22,7 +22,7 @@ sudo crontab -e
 ```
 
 4. Bearbeiten des Crontabs <br>
-Füge diesen text ganz unten ein und trage deinen Pfad zum Skript ein.
+Füge diese Zeile ganz unten ein und trage deinen Pfad zum Skript ein.
 ```
 */20 * * * * /[Dein Pfad zum Skript]/strato-dyndns.sh >/dev/null 2>&1
 ```
