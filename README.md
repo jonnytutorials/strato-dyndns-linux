@@ -27,7 +27,7 @@ Füge diese Zeile ganz unten ein und trage deinen Pfad zum Skript ein.
 */20 * * * * /[Dein Pfad zum Skript]/strato-dyndns.sh >/dev/null 2>&1
 ```
 <p align="center">
-<img src="https://i.ibb.co/jHqvsYb/cron-edit.png" alt="cron-edit">
+<img src="https://data.jonnytutorials.de/img/strato-dyndns-github/1.png" alt="cron-edit">
 </p>
 
 5. Cron neustarten
