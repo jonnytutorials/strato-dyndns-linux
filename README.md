@@ -6,7 +6,7 @@ Das ist ein kleines Skript um die IP-Adresse für eine Strato Domain zu aktualis
 2. Offne die Datei `strato-dyndns.sh` und setze bei `passwort`, `benutzer` und `domain` deine Werte, die du in deinem Strato-Konto findest. Nicht vergessen die Datei zu speichern :D.
 ## Setup Cron
 Cron ist ein Linux Dienst mit dem man Prozesse zu einer angegebenen Zeit ausführen kann.
-1. Installieren von [Crontab](https://de.wikipedia.org/wiki/Cron) und [curl](https://de.wikipedia.org/wiki/CURL)
+1. Installieren von [cron](https://de.wikipedia.org/wiki/Cron) und [curl](https://de.wikipedia.org/wiki/CURL)
 ``` shell
 sudo apt-get install cron curl
 ```
