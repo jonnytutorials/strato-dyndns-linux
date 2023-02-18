@@ -21,7 +21,7 @@
 # checkip.amazonaws.com
 
 
-IP=$(curl -s https://api-ipv4.ip.sb/ip) #Trage hier den IP-Get Service ein (standart Wert https://api-ipv4.ip.sb/ip)
+IP=$(curl -s api-ipv4.ip.sb/ip) #Trage hier den IP-Get Service ein (Standartwert: api-ipv4.ip.sb/ip)
 
 
 ######################
