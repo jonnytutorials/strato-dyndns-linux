@@ -8,27 +8,28 @@
 ###### IP-Get Services ######
 #############################
 
-#### IPv6 ####
+#### IPv4 / IPv6 ####
 
-# http://tnx.nl/ip
-# https://icanhazip.com/
-
-
-#### IPv4 ####
-
-# https://checkip.amazonaws.com/
-# https://api-ipv4.ip.sb/ip
+# ifconfig.co
+# icanhazip.com
 
 
-aktuelleip=$(curl -s https://api-ipv4.ip.sb/ip) #Trage hier den IP-Get Service ein (standart Wert https://api-ipv4.ip.sb/ip)
+#### only IPv4 ####
+
+# api-ipv4.ip.sb/ip
+# ifconfig.me
+# checkip.amazonaws.com
+
+
+IP=$(curl -s https://api-ipv4.ip.sb/ip) #Trage hier den IP-Get Service ein (standart Wert https://api-ipv4.ip.sb/ip)
 
 
 ######################
-####### STRATO #######
+###### Settings ######
 ######################
 
-password='' #dein gesetztes Passwort auf Strato für dyndns
-benutzer='' #deine Domain
-domain='' #nochmals deine Domain
+PASSWORD='' # gesetztes Passwort für dyndns
+USER='' # Domain
+DOMAIN='' # Domain
 
-curl -s https://$benutzer:$password@dyndns.strato.com/nic/update?hostname=$domain&myip=$aktuelleip
+curl -s https://$USER:$PASSWORD@dyndns.strato.com/nic/update?hostname=$DOMAIN&myip=$IP
